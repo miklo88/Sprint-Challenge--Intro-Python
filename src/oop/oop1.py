@@ -21,22 +21,22 @@
 # base class aka parent class
 class Vehicle:
     pass
-
+# child class
 class GroundVehicle(Vehicle):
     pass
-
+# grandkids
 class Car(GroundVehicle):
     pass
-
+# grandkids
 class Motorcycle(GroundVehicle):
     pass
-
+# child
 class FlightVehicle(Vehicle):
     pass
-
+# grandkids
 class Starship(FlightVehicle):
     pass
-
+# grandkids
 class Airplane(FlightVehicle):
     pass
 

@@ -39,3 +39,8 @@ vehicles = [
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
+print(vehicles[0].drive())
+print(vehicles[1].drive())
+print(vehicles[2].drive())
+print(vehicles[3].drive())
+print(vehicles[4].drive())
